@@ -2,4 +2,27 @@ steps for set up from a git hub location with out anything stood up on the home 
 
 1. create a dir on local pc (ex. /home/workspace/projectName
 2. clone git repo from github in the directory you want it 
-    cmd: git clone https://github.com/username/git repo -> git clone https://github.com/wigtoy-llc/hiStepperShow.git
+	- cmd: git clone https://github.com/username/git repo -> git clone https://github.com/wigtoy-llc/hiStepperShow.git
+3. open folder in vs code 
+4. run cmd: npm install
+5. check install by running cmd: ng serve 
+6. open a browser and go to localhost:4200
+
+INSTALLING BOOTSTRAP 
+
+1. run cmd: npm install --save bootstrap 
+2. run cmd: npm install --save jquery
+3. open angular.json and add the following to the following locations 
+
+	projects->architect->build->styles array
+		- ./node_modules/bootstrap/dist/css/bootstrap.css
+	projects->architect->build->scripts array
+	 	- ./node_modules/bootstrap/dist/js/bootstrap.js
+		- ./node_modules/jquery/dist/jquery.js
+		
+4. ng serve and check to see if you have bootstrap styling using the debuger and checking imports
+
+
+
+
+
