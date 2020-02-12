@@ -1,0 +1,5 @@
+steps for set up from a git hub location with out anything stood up on the home pc 
+
+1. create a dir on local pc (ex. /home/workspace/projectName
+2. clone git repo from github in the directory you want it 
+    cmd: git clone https://github.com/username/git repo -> git clone https://github.com/wigtoy-llc/hiStepperShow.git
