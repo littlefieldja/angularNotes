@@ -1,0 +1,185 @@
+NG-CONF DAY 1.... 
+
+NOTES
+angular ivy ... newest version 
+angular 2020 survery
+angular io podcast 
+
+whats new in v9
+- backwards compatable 
+- smaller bundle sizes 
+  - tree shaking (only uses reference you are using) 
+  - less generated code 
+  - most results is a 30% smaller application
+- faster application 
+  - separate dep compliation -> only compiles code not dependiences.
+  - No JSON conversion 
+  - most build times are 40% less time.
+  - ng serve is doing the same checks as ng build 
+- simpler ways to code 
+  - debugging is using stack track... links take you to the line 
+  - debugging demo using developer tools sources tabs to see source code ********
+  - new methods on ng global... learn how to use this 
+  - building errors are better
+- typescripit update to 3.7 and 3.8 
+
+CLI builders -> Mike Hartington twitter @mhartington 
+ex. ng build
+  - really running broswer builder
+ex. ng serve 
+  - really running dev server builder 
+ex. ng test 
+  - karma builder
+  
+Session 2  
+Jeremy Elbourn -> WAI-ARIA @jelbourn 
+  - using roles in html elements
+  - parameterized sass mixins
+  - main point is that features with in html dont know about each other. mat tables, mat patigiation, mat headers dont know 
+  about each other each one is its own thing 
+  - decompose and be deliberate with re-composition   
+  - Customization is inevitable, build for flexibily, everything you do has trade offs 
+
+Wagner Maciel
+  - Angular Universal 
+    - tool kit for server side and prerendering for angular 
+  why do server side rendering 
+  1) show page one faster
+  2) improve performance for weaker devices
+  3) SEO and web crawlers looking for what your page is about in search engins 
+  
+  steps in demo 
+  new project 
+  ng add @nguniversal/express-engine 
+  ng build for server side code is wayyyy faster 
+  
+  new features 
+  - live code reload ... works more like ng serve reload and rel compile on save 
+  - prerendering gernerate and save static pages to the file system 
+    - you can server this so that out side your project 
+    
+  DEMO of new features 
+  npm run serve: ssr
+
+Deborah Kurata  need to rewatch this lecture later **************
+ - map, switchMap, concertMap, 
+ 
+SESSION 3
+stephen Fluin 
+- source map explorer
+
+five topics 
+- micro frontends
+	
+- server side rendering 
+
+- monorepo and code sharing 
+ - github 
+ - bazel 
+ - pullapprove 
+ - VIRAL MONOREPORSITORY 
+ 	one app, one library 
+	two apps, one library -> shared libs ... everything is using one libaray 
+
+- varied enviorments 
+	- using pull demand rather then forcing stuff down the line 
+	- increase value in collaboration 
+	- Constructable stylesheets 
+
+Business Justification 
+	- One version 
+	- Security 
+	- Performance 
+	- Recommended path 
+	- Everyone else is doing it 
+	- Component Usage Tracking 
+		- as a libs building your can track how many people use your libs 
+		
+John Papa @john_papa
+
+	- lazy loading 
+		- rather then waiting for everything up front ... load things as people click them 
+		- preloading is a middle between both 
+
+	- preload none, preload all, .... custome preloading 
+	setting is located in app.module.ts
+	
+	three different options for preloading js bundles 
+	1) opt in or opt out each bundle
+	2) check network speed ... 
+	3) predict based on user behaviors 
+		ex. some one looking for something typical searches something then look at the details ... you can code it 
+		
+	take aways 
+	define a preload strategy 
+	use angular essentails for snippets 
+	
+	
+	DAY 2 
+	
+	Demo domain driven design 
+	
+	
+	domain driven design by Eric Evans 
+	
+	strategic 
+	-> decomposing a System 
+	tactical
+	-> design patterns and practices
+	
+	Example application 
+	user cases 
+		need a catalog with all IT things 
+		need to have a way to get approvals 
+		ordering the stuff 
+		specs 
+		
+		Employee -> request product 
+		IT -> specify Order 
+		Manager -> approval 
+		Buying Agent -> send order 
+		
+		Manager -> Request budget 
+		Manager -> approve budget 
+		
+		Product is the main role 
+		budeget is a role but not main. 
+		
+		context mapping all domains need spectification -> catalog <- approval
+		maybe all domains call a shared kernel 
+		maybe you can use API's from the catalog to talk to everyone
+		
+		BOOK FOR NG angulararchitects.io/book DDD, Nx MonoReops by manfred steyer 
+
+Vishal Kumar
+	THINGS to to consider while writting large scaled applications 
+	Seperation of considers 
+		PROS 
+			- issues are contained 
+			- easy owernership of applications 
+			
+	Micro Frontend Architecture 
+		- Isolated Mini apps 
+		- Custom elements 
+		- lib components 
+	
+	Effective Content Management 
+	- headless CMS 
+	PROS
+		- customer owns images 
+		- no deployment needed 
+		- devs controls presentation layer 
+		- build muilt UIs with same content 
+		- performance 
+	
+	Error Tracking 
+	prevention strategies 
+	
+	make toggels to turn features on and off 
+	
+
+		
+
+  
+
+  
