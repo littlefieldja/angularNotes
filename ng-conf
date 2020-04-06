@@ -177,6 +177,158 @@ Vishal Kumar
 	
 	make toggels to turn features on and off 
 	
+Wesley Faulkner 
+Networking how to network 
+
+	Big take away 
+	- wait for someone to finish ... dont key on just the thing you want too. 
+	- dont think about your response during their turn 
+	- phone takes still smile while talking your voice is happier
+	
+	
+SESSION 5
+
+James Daniel 
+TOPIC firebase 
+	angular fire v6.0 
+	
+Brandon Roberts 
+Routers with Ivy 
+
+Young gun with AI 
+ - tensel.js 
+ - ML in angular is pretty good 
+ 
+SESSION 6
+
+Jorge Cano 
+- BAZEL 
+
+
+Debugging with Anthony Humes
+- broswer debugging methods on inspecting elments 
+- 0$ gets the last event 
+
+
+
+DAY 3 
+
+- Keynote **** rewatch the start 
+
+	- learn how to perf anazlys your application 
+		- install source map explorer 
+		- turn on source maps in production build 
+		- run prod build 
+		- run source map explorer on built code 
+	perf tools 
+	- source map explorer
+	- lighthouse 
+	- webpage test 
+	
+	- dont use a lot of 3rd party libraries 
+	- try to use things in ES bundles 
+	
+	- another thing to use is lazy loading 
+	
+	- stay upto date... keep your code running in the newest version 
+	
+Keynote 2 Minko Gechev 
+	- unvirsal application are something to understan more better 
+	- prerendering is also something to look at 
+	- JAM stack 
+	- Scully by hero devs 
+
+Session 7
+
+	- Jennifer Wadella 
+		- forms containers 
+	
+	- Sam Julien NgRx is the topc
+		- ngrx effects? 
+		- the role off efects in ngrx auth 
+		- effects are the dj of ngrx 
+		- in ngrx compnents -> effects ->  reducers 
+		- effects -> talk to services and communicate with API 
+		- effects also -> handle control flow logic 
+			they are a task runner 
+		
+		- three main issues 
+			- actions that only trigger effects 
+			- non dispatching effects 
+			- complex effects 
+			
+		- when doing auth everything above happens 
+		
+		login process 
+		start login -> login providor -> back to client with true or false 
+		typically in vinallia you have auth service 
+		
+	- Dan Wahlin - observable services to observable store 
+		- one service that lots of services can call 
+		- observable store ... a service that stores data and can be called from lots of other services 
+		- pretty go place to start with store state .... something to consider ... 
+		
+SESSION 8 
+	david east angluar and firebase 
+	- super fast really smart
+	
+	to talks about what is coming up in ngrx ... take a pluralsight while it is free 
+	
+
+SESSION 9 
+	
+	- Shai
+	testangular.io to learn more about testing angular 
+	extrnal intergration test 
+	
+	three different test 
+	scope    -> 
+	boundaries ->
+	subject  -> hirez.link/ng-conf-2020 
+	
+	
+	- KEEN 
+	- install angular language services
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 		
 
